@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-group{
+    width: 600px;
+    height: auto;
+    border: 1px solid rgb(214, 213, 213);
+}
+
+li{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px ;
+}
+
+.buttons{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.editBtn{
+    padding: 3px 8px;
+    background-color: yellow;
+    border: none;
+    border-radius: 8px;
+}
+.deleteBtn{
+    padding: 3px 8px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+}
+
+.modal-div{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#open-modal{
+    border: none;
+    border-radius: 8px;
+    background-color: skyblue;
+    padding: 3px 8px;
+}
